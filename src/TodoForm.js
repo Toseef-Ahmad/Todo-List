@@ -12,7 +12,7 @@ const TodoForm = (props) => {
   return (
     <>
       <form className="TodoNewForm">
-        <label forHtml="todo">New Todo </label>
+        <label htmlFor="todo">New Todo </label>
         <input
           type="text"
           value={todoTask}
