@@ -1,0 +1,35 @@
+.TodoNewForm {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.TodoNewForm input {
+  flex-grow: 1;
+  border: none;
+  padding: 15px 1.5em;
+  border-radius: 4px;
+}
+
+.TodoNewForm button {
+  background-color: #ff5e5e;
+  border: none;
+  margin-left: 10px;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: normal;
+  border-radius: 5px;
+}
+.TodoNewForm button:hover {
+  font-size: small;
+}
+
+.TodoNewForm label {
+  margin-left: -30px;
+  padding-right: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,58 @@
+.Todo {
+  display: flex;
+  margin: 0 -3rem 4px;
+  padding: 1.1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* .Todo button[name*='delete'] {
+  margin-left: 5px;
+}
+
+.Todo button[name*='edit'] {
+  margin-left: 0px;
+} */
+
+.Todo-buttons {
+  flex-shrink: 0;
+}
+
+.Todo-buttons button {
+  border: none;
+  color: white;
+  background: none;
+  -webkit-appearance: none;
+}
+
+.Todo-buttons button:hover {
+  font-size: 19px;
+}
+
+.Todo-edit-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Todo-edit-form input {
+  flex-grow: 1;
+  border: none;
+  padding: 15px 1.5em;
+  font-size: initial;
+  border-radius: 4px;
+}
+
+.Todo-edit-form button {
+  background-color: #ff5e5e;
+  border: none;
+  margin-left: 10px;
+  padding: 0 20px;
+  color: white;
+  font-weight: bolder;
+  font-size: normal;
+  border-radius: 5px;
+}
+.Todo-edit-form button:hover {
+  font-size: larger;
+}
